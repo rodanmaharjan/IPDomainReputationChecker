@@ -20,8 +20,8 @@ Follow these steps to run the script:
 
 1. **Clone the repository**:
 ```bash
-   git clone https://github.com/yourusername/repositoryname.git
-   cd repositoryname
+   git clone https://github.com/rodanmaharjan/IPDomainReputationChecker
+   cd IPDomainReputationChecker
 ```
 2. **Install the required dependencies**:
 ```bash
