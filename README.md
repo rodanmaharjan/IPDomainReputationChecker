@@ -44,23 +44,23 @@ Follow these steps to run the script:
 
 ## Example Input Files
 **input.txt**:
-```plaintext
+```
    plaintext
    Copy code
    8.8.8.8
    example.com
 ```
 **api_keys.txt**:
-```plaintext
+```
    your_api_key_1
    your_api_key_2
 ```
 **Output**:
-```plaintext
+```
    The malicious.txt file will contain a list of IP addresses or URLs flagged as malicious by VirusTotal.
 ```
 **Contributing**
-```plaintext
+```
    Contributions are welcome! Feel free to open an issue or submit a pull request.
 ```
 ## License
