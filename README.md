@@ -45,7 +45,6 @@ Follow these steps to run the script:
 ## Example Input Files
 **input.txt**:
 ```
-   plaintext
    Copy code
    8.8.8.8
    example.com
