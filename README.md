@@ -19,44 +19,49 @@ You need the following to run this project:
 Follow these steps to run the script:
 
 1. **Clone the repository**:
-   ```bash
+```bash
    git clone https://github.com/yourusername/repositoryname.git
    cd repositoryname
-
+```
 2. **Install the required dependencies**:
-  ```bash
-  pip install -r requirements.txt
+```bash
+   pip install -r requirements.txt
 ```
 3. **Prepare the input files**:
-``` bash
+```bash
   input.txt: Add a list of IP addresses or URLs (one per line) that you want to scan.
   api_keys.txt: Add your VirusTotal API keys (one per line). 
 ```
 
-4. ***Run the script***:
+4. **Run the script**:
 ```bash
   python3 main.py
+```
+5. ***Check the results***:
+```bash
+   Open malicious.txt to see any malicious IPs or URLs.
+```
 
-5. ***Check the results***: Open malicious.txt to see any malicious IPs or URLs.
-
-Example Input Files
-input.txt:
-
-plaintext
-Copy code
-8.8.8.8
-example.com
-api_keys.txt:
-
-plaintext
-Copy code
-your_api_key_1
-your_api_key_2
-Output
-The malicious.txt file will contain a list of IP addresses or URLs flagged as malicious by VirusTotal.
-
-Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-License
+## Example Input Files
+**input.txt**:
+```plaintext
+   plaintext
+   Copy code
+   8.8.8.8
+   example.com
+```
+**api_keys.txt**:
+```plaintext
+   your_api_key_1
+   your_api_key_2
+```
+**Output**:
+```plaintext
+   The malicious.txt file will contain a list of IP addresses or URLs flagged as malicious by VirusTotal.
+```
+**Contributing**
+```plaintext
+   Contributions are welcome! Feel free to open an issue or submit a pull request.
+```
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
